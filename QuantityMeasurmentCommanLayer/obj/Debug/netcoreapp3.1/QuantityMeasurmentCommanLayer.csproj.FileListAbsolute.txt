@@ -1,0 +1,8 @@
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\bin\Debug\netcoreapp3.1\QuantityMeasurmentCommanLayer.deps.json
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\bin\Debug\netcoreapp3.1\QuantityMeasurmentCommanLayer.dll
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\bin\Debug\netcoreapp3.1\QuantityMeasurmentCommanLayer.pdb
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentCommanLayer.csprojAssemblyReference.cache
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentCommanLayer.AssemblyInfoInputs.cache
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentCommanLayer.AssemblyInfo.cs
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentCommanLayer.dll
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentCommanLayer.pdb
