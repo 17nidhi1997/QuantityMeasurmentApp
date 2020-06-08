@@ -43,26 +43,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -118,6 +98,9 @@
             "projectReferences": {
               "C:\\Users\\Srinidhi\\source\\repos\\QuantityMeasurment\\QuantityMeasurmentCommanLayer\\QuantityMeasurmentCommanLayer.csproj": {
                 "projectPath": "C:\\Users\\Srinidhi\\source\\repos\\QuantityMeasurment\\QuantityMeasurmentCommanLayer\\QuantityMeasurmentCommanLayer.csproj"
+              },
+              "C:\\Users\\Srinidhi\\source\\repos\\QuantityMeasurment\\QuantityMeasurmentRepositoriesLayer\\QuantityMeasurmentRepositoriesLayer.csproj": {
+                "projectPath": "C:\\Users\\Srinidhi\\source\\repos\\QuantityMeasurment\\QuantityMeasurmentRepositoriesLayer\\QuantityMeasurmentRepositoriesLayer.csproj"
               }
             }
           }
@@ -199,22 +182,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -286,10 +253,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -301,14 +264,6 @@
               "target": "Package",
               "version": "[2.1.2, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -319,21 +274,17 @@
               "target": "Package",
               "version": "[2.1.10, )"
             },
-            "Serilog": {
-              "target": "Package",
-              "version": "[2.10.0-dev-01187, )"
-            },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[2.1.0, )"
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[2.1.0, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

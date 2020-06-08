@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using QuantityMeasurmentCommanLayer;
 using QuantityMeasurmentManagmentLayer.IManager;
-using Serilog;
 
 namespace QuantityMeasurment.Controllers
 {
@@ -23,24 +22,16 @@ namespace QuantityMeasurment.Controllers
         [HttpPost]
         public IActionResult FeetToInch(Length quantity)
         {
-            var result =this._Manager.FeetToInch(quantity);
-            if((int)result>=0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest(); 
+            var result =this._Manager.FeetToInch(quantity);       
+            return this.Ok(result);
         }
 
         [Route("InchToFeet")]
         [HttpPost]
         public IActionResult InchToFeet(Length quantity)
         {
-           var result = this._Manager.InchToFeet(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+            var result = this._Manager.InchToFeet(quantity);
+            return this.Ok(result);
         }
 
         [Route("FeetToYard")]
@@ -48,11 +39,7 @@ namespace QuantityMeasurment.Controllers
         public IActionResult FeetToYard(Length quantity)
         {
            var result = this._Manager.FeetToYard(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+           return this.Ok(result);
         }
 
         [Route("YardToFeet")]
@@ -60,11 +47,7 @@ namespace QuantityMeasurment.Controllers
         public IActionResult YardToFeet(Length quantity)
         {
            var result = this._Manager.YardToFeet(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+           return this.Ok(result);
         }
 
         [Route("InchToCentimeter")]
@@ -72,11 +55,7 @@ namespace QuantityMeasurment.Controllers
         public IActionResult InchToCentimeter(Length quantity)
         {
             var result = this._Manager.InchToCentimeter(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+            return this.Ok(result);
         }
 
         [Route("CentimeterToInch")]

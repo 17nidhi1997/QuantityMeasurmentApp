@@ -24,11 +24,7 @@ namespace QuantityMeasurment.Controllers
         public IActionResult CelsiusToFahrenheit(Temperature quantity)
         {
             var result = this._Manager.CelsiusToFahrenheit(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+            return this.Ok(result);
         }
 
         [Route("FahrenheitToCelsius")]
@@ -36,11 +32,7 @@ namespace QuantityMeasurment.Controllers
         public IActionResult FahrenheitToCelsius(Temperature quantity)
         {
             var result = this._Manager.FahrenheitToCelsius(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+            return this.Ok(result);
         }
     }
 }

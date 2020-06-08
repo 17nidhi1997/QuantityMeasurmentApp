@@ -13,58 +13,42 @@ namespace QuantityMeasurment.Controllers
     [ApiController]
     public class WeightController : ControllerBase
     {
-            public IQuantityManager _Manager;
-            public WeightController(IQuantityManager manager)
-            {
-                this._Manager = manager;
-            }
+        public IQuantityManager _Manager;
+        public WeightController(IQuantityManager manager)
+        {
+            this._Manager = manager;
+        }
 
-            [Route("KgToGram")]
-            [HttpPost]
-            public IActionResult KgToGram(Weight quantity)
-            {
-                var result = this._Manager.KgToGram(quantity);
-                if ((int)result >= 0)
-                {
-                    return this.Ok(result);
-                }
-                return this.BadRequest();
-            }
+        [Route("KgToGram")]
+        [HttpPost]
+        public IActionResult KgToGram(Weight quantity)
+        {
+            var result = this._Manager.KgToGram(quantity);
+            return this.Ok(result);
+        }
 
-            [Route("GramToKg")]
-            [HttpPost]
-            public IActionResult GramToKg(Weight quantity)
-            {
-                var result = this._Manager.GramToKg(quantity);
-                if ((int)result >= 0)
-                {
-                    return this.Ok(result);
-                }
-                return this.BadRequest();
-            }
-
-            [Route("TonneToKg")]
-            [HttpPost]
-            public IActionResult TonneToKg(Weight quantity)
-            {
-                var result = this._Manager.TonneToKg(quantity);
-                if ((int)result >= 0)
-                {
-                    return this.Ok(result);
-                }
-                return this.BadRequest();
-            }
+        [Route("GramToKg")]
+        [HttpPost]
+        public IActionResult GramToKg(Weight quantity)
+        {
+            var result = this._Manager.GramToKg(quantity);
+            return this.Ok(result);
+        }
+        
+        [Route("TonneToKg")]
+        [HttpPost]
+        public IActionResult TonneToKg(Weight quantity)
+        {      
+            var result = this._Manager.TonneToKg(quantity);
+            return this.Ok(result);
+        }
 
         [Route("KgToTanne")]
         [HttpPost]
         public IActionResult KgToTanne(Weight quantity)
         {
             var result = this._Manager.KgToTanne(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+            return this.Ok(result);
         }
     }
 }

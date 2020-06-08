@@ -24,11 +24,7 @@ namespace QuantityMeasurment.Controllers
         public IActionResult LiterToGallon(Volume quantity)
         {
             var result = this._Manager.LiterToGallon(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+            return this.Ok(result);
         }
 
         [Route("LiterToMiliter")]
@@ -36,11 +32,7 @@ namespace QuantityMeasurment.Controllers
         public IActionResult LiterToMiliter(Volume quantity)
         {
             var result = this._Manager.LiterToMiliter(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+            return this.Ok(result);
         }
 
         [Route("MililiterToLiter")]
@@ -48,11 +40,7 @@ namespace QuantityMeasurment.Controllers
         public IActionResult MililiterToLiter(Volume quantity)
         {
             var result = this._Manager.MililiterToLiter(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+            return this.Ok(result);
         }
 
         [Route("GallonToLiter")]
@@ -60,11 +48,7 @@ namespace QuantityMeasurment.Controllers
         public IActionResult GallonToLiter(Volume quantity)
         {
             var result = this._Manager.GallonToLiter(quantity);
-            if ((int)result >= 0)
-            {
-                return this.Ok(result);
-            }
-            return this.BadRequest();
+            return this.Ok(result);
         }
     }
 }
