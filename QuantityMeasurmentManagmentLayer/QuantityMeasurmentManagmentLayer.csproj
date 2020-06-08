@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\QuantityMeasurmentCommanLayer\QuantityMeasurmentCommanLayer.csproj" />
+    <ProjectReference Include="..\QuantityMeasurmentRepositoriesLayer\QuantityMeasurmentRepositoriesLayer.csproj" />
   </ItemGroup>
 
 </Project>

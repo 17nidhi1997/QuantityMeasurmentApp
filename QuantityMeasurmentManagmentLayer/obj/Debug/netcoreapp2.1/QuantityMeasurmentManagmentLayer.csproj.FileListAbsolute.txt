@@ -9,3 +9,5 @@ C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLay
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\obj\Debug\netcoreapp2.1\QuantityMeasurmentManagmentLayer.csproj.CopyComplete
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\obj\Debug\netcoreapp2.1\QuantityMeasurmentManagmentLayer.dll
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\obj\Debug\netcoreapp2.1\QuantityMeasurmentManagmentLayer.pdb
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\bin\Debug\netcoreapp2.1\QuantityMeasurmentRepositoriesLayer.dll
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\bin\Debug\netcoreapp2.1\QuantityMeasurmentRepositoriesLayer.pdb
