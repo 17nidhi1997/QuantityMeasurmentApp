@@ -8,11 +8,7 @@ namespace QuantityMeasurmentCommanLayer.Model
 {
     public class Temperature
     {
-      
-       [RegularExpression(@"^\d+(\.\d{1,2})?")]
         public double Fahrenheit { get; set; }
-
-        [RegularExpression(@"^\d+(\.\d{1,2})?")]
         public double Celsius { get; set; }
     }
 }

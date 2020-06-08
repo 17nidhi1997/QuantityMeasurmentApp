@@ -1,6 +1,4 @@
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\bin\Debug\netcoreapp2.1\QuantityMeasurmentCommanLayer.deps.json
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\bin\Debug\netcoreapp2.1\QuantityMeasurmentCommanLayer.runtimeconfig.json
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\bin\Debug\netcoreapp2.1\QuantityMeasurmentCommanLayer.runtimeconfig.dev.json
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\bin\Debug\netcoreapp2.1\QuantityMeasurmentCommanLayer.dll
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\bin\Debug\netcoreapp2.1\QuantityMeasurmentCommanLayer.pdb
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentCommanLayer\obj\Debug\netcoreapp2.1\QuantityMeasurmentCommanLayer.csprojAssemblyReference.cache
