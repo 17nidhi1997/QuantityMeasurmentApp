@@ -16,28 +16,10 @@ namespace QuantityMeasurmentRepositoriesLayer.Repository
     /// <returns></returns>
     public interface IQuantityRepository
     {
-        ////Length
-        object FeetToInch(Length quantity);
-        object InchToFeet(Length quantity);
-        object FeetToYard(Length quantity);
-        object YardToFeet(Length quantity);
-        object InchToCentimeter(Length quantity);
-        object CentimeterToInch(Length quantity);
-
-        ////Tempareture
-        object FahrenheitToCelsius(Temperature quantity);
-        object CelsiusToFahrenheit(Temperature quantity);
-
-        ////Volume
-        object MililiterToLiter(Volume quantity);
-        object LiterToMiliter(Volume quantity);
-        object LiterToGallon(Volume quantity);
-        object GallonToLiter(Volume quantity);
-
-        ////Weight
-        object KgToGram(Weight quantity);
-        object GramToKg(Weight quantity);
-        object TonneToKg(Weight quantity);
-        object KgToTanne(Weight quantity);
+       // void Connection();
+        object CalculateLength(Length quantity);
+        object CalculateTemperature(Temperature quantity);
+        object CalculateWeight(Weight quantity);
+        object CalculateVolume(Volume quantity);
     }
 }

@@ -1,16 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QuantityMeasurmentCommanLayer;
+using QuantityMeasurmentCommanLayer.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace QuantityMeasurmentRepositoriesLayer.Context
 {
-    public class RepoDBContext : DbContext
+    public class RepoDbContext : DbContext
     {
-        public RepoDBContext(DbContextOptions<RepoDBContext> options) : base(options)
+        public RepoDbContext(DbContextOptions<RepoDbContext> options) : base(options)
         {
         }
-        public DbSet<MeasurmentModel> Measurments { get; set; }
+        public DbSet<Length> length { get; set; }
+        public DbSet<Temperature>  temperature{ get; set; }
+        public DbSet<Volume> volume { get; set; }
+        public DbSet<Weight> weight { get; set; }
     }
 }
