@@ -1,8 +1,0 @@
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\bin\Debug\netcoreapp3.1\QuantityMeasurmentManagmentLayer.deps.json
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\bin\Debug\netcoreapp3.1\QuantityMeasurmentManagmentLayer.dll
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\bin\Debug\netcoreapp3.1\QuantityMeasurmentManagmentLayer.pdb
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentManagmentLayer.csprojAssemblyReference.cache
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentManagmentLayer.AssemblyInfoInputs.cache
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentManagmentLayer.AssemblyInfo.cs
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentManagmentLayer.dll
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurmentManagmentLayer\obj\Debug\netcoreapp3.1\QuantityMeasurmentManagmentLayer.pdb
