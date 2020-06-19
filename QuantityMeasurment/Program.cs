@@ -17,8 +17,8 @@ namespace QuantityMeasurment
     {
         public static void Main(string[] args)
         {
-            QuantityRepository quantity =new QuantityRepository();
-            quantity.Connection();
+           // QuantityRepository quantity =new QuantityRepository();
+           // quantity.Connection();
             CreateWebHostBuilder(args).Build().Run();
         }
 

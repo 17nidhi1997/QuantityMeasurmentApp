@@ -29,23 +29,38 @@ namespace QuantityMeasurment.Controller
             {
                 if (quantity.convertUnits == convertUnit.MililiterToLiter.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (quantity.convertUnits == convertUnit.LiterToMiliter.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (quantity.convertUnits == convertUnit.LiterToGallon.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (quantity.convertUnits == convertUnit.GallonToLiter.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else
                 {
-                    return NotFound();
+                    return this.BadRequest(new
+                    {
+                        result = "Error in connection"
+                    });
                 }
             }
             catch (CustomException)

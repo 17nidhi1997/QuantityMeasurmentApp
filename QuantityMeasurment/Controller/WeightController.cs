@@ -29,23 +29,38 @@ namespace QuantityMeasurment.Controller
             {
                 if (quantity.convertUnits == convertUnit.KgToGram.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (quantity.convertUnits == convertUnit.GramToKg.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (quantity.convertUnits == convertUnit.TonneToKg.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (quantity.convertUnits == convertUnit.KgToTanne.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else
                 {
-                    return NotFound();
+                    return this.BadRequest(new
+                    {
+                        result = "Error in connection"
+                    });
                 }
             }
             catch (CustomException)

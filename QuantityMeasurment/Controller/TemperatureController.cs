@@ -29,15 +29,24 @@ namespace QuantityMeasurment.Controllers
             {
                 if (quantity.convertUnits == convertUnit.FahrenheitToCelsius.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (quantity.convertUnits == convertUnit.CelsiusToFahrenheit.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else
                 {
-                    return NotFound();
+                    return this.BadRequest(new
+                    {
+                        result = "Error in connection"
+                    });
                 }
             }
             catch (CustomException)

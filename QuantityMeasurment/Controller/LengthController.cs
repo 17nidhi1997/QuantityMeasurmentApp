@@ -30,31 +30,51 @@ namespace QuantityMeasurment.Controller
             {
                 if (length.convertUnits == convertUnit.FeetToInch.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new { 
+                        result = item 
+                    });
                 }
                 else if (length.convertUnits == convertUnit.InchToFeet.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (length.convertUnits == convertUnit.FeetToYard.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (length.convertUnits==convertUnit.CentimeterToInch.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (length.convertUnits == convertUnit.InchToCentimeter.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else if (length.convertUnits == convertUnit.YardToFeet.ToString())
                 {
-                    return this.Ok(item);
+                    return this.Ok(new
+                    {
+                        result = item
+                    });
                 }
                 else
                 {
-                    return NotFound();
+                    return this.BadRequest(new
+                    {
+                        result = "Error in connection"
+                    });
                 }
             }
             catch (CustomException)
