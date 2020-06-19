@@ -8,7 +8,8 @@ namespace QuantityMeasurmentCommanLayer.Model
 {
     public class Temperature
     {
-        public double Fahrenheit { get; set; }
-        public double Celsius { get; set; }
+       public double Fahrenheit { get; set; }
+       public double Celsius { get; set; }
+       public string convertUnits { get; set; }
     }
 }

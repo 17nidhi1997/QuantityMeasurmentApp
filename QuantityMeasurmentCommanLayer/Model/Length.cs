@@ -12,5 +12,6 @@ namespace QuantityMeasurmentCommanLayer
         public double Inch { get; set; }
         public double Yard { get; set; }
         public double Centimeter { get; set; }
+        public string convertUnits { get; set; }
     }
 }

@@ -11,5 +11,6 @@ namespace QuantityMeasurmentCommanLayer.Model
         public double Liter { get; set; }
         public double Milliliter { get; set; }
         public double Gallon { get; set; }
+        public string convertUnits { get; set; }
     }
 }

@@ -11,5 +11,6 @@ namespace QuantityMeasurmentCommanLayer.Model
         public double Kilogram { get; set; }
         public double Gram { get; set; }
         public double Tonne { get; set; }
+        public string convertUnits { get; set; }
     }
 }
