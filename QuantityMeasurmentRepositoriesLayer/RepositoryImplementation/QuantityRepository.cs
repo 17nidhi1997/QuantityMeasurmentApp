@@ -92,7 +92,7 @@ namespace QuantityMeasurmentRepositoriesLayer.RepositoryImplementation
                     }
                     else if (quantity.convertUnits.Equals(convertUnit.YardToFeet.ToString()))
                     {
-                        quantity.Yard = quantity.Yard * 3;
+                        quantity.Feet = quantity.Yard * 3;
                         cmd.Connection = _db;
                         cmd.Parameters.Add("Feet", quantity.Feet);
                         cmd.Parameters.Add("Inch", quantity.Inch);
@@ -268,20 +268,7 @@ namespace QuantityMeasurmentRepositoriesLayer.RepositoryImplementation
                     }
                     else if (quantity.convertUnits == convertUnit.TonneToKg.ToString())
                     {
-                        quantity.Tonne = quantity.Kilogram * 1000;
-                        cmd.Connection = _db;
-                        cmd.Parameters.Add("Kilogram", quantity.Kilogram);
-                        cmd.Parameters.Add("Gram", quantity.Gram);
-                        cmd.Parameters.Add("Tonne", quantity.Tonne);
-                        cmd.Parameters.Add("convertUnits", quantity.convertUnits);
-                        _db.Open();
-                        cmd.ExecuteNonQuery();
-                        _db.Close();
-                        return quantity.Tonne;
-                    }
-                    else if (quantity.convertUnits == convertUnit.KgToTanne.ToString())
-                    {
-                        quantity.Kilogram = quantity.Tonne / 1000;
+                        quantity.Kilogram = quantity.Tonne * 1000;
                         cmd.Connection = _db;
                         cmd.Parameters.Add("Kilogram", quantity.Kilogram);
                         cmd.Parameters.Add("Gram", quantity.Gram);
@@ -291,6 +278,19 @@ namespace QuantityMeasurmentRepositoriesLayer.RepositoryImplementation
                         cmd.ExecuteNonQuery();
                         _db.Close();
                         return quantity.Kilogram;
+                    }
+                    else if (quantity.convertUnits == convertUnit.KgToTanne.ToString())
+                    {
+                        quantity.Tonne = quantity.Kilogram / 1000;
+                        cmd.Connection = _db;
+                        cmd.Parameters.Add("Kilogram", quantity.Kilogram);
+                        cmd.Parameters.Add("Gram", quantity.Gram);
+                        cmd.Parameters.Add("Tonne", quantity.Tonne);
+                        cmd.Parameters.Add("convertUnits", quantity.convertUnits);
+                        _db.Open();
+                        cmd.ExecuteNonQuery();
+                        _db.Close();
+                        return quantity.Tonne;
                     }
                     else
                     {
