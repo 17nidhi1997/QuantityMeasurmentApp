@@ -8,9 +8,9 @@ C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\bin\Debug\n
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\QuantityMeasurmentCommanLayer.dll
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\QuantityMeasurmentManagmentLayer.dll
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\QuantityMeasurmentRepositoriesLayer.dll
+C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\QuantityMeasurmentCommanLayer.pdb
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\QuantityMeasurmentManagmentLayer.pdb
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\QuantityMeasurmentRepositoriesLayer.pdb
-C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\QuantityMeasurmentCommanLayer.pdb
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\obj\Debug\netcoreapp2.1\QuantityMeasurment.csprojAssemblyReference.cache
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\obj\Debug\netcoreapp2.1\QuantityMeasurment.RazorAssemblyInfo.cache
 C:\Users\Srinidhi\source\repos\QuantityMeasurment\QuantityMeasurment\obj\Debug\netcoreapp2.1\QuantityMeasurment.RazorAssemblyInfo.cs
